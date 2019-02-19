@@ -68,6 +68,9 @@ public abstract class ViewGroupManager <T extends ViewGroup>
     return parent.getChildAt(index);
   }
 
+  public void addDeleteMark(T parent, int index) {
+  }
+
   public void removeViewAt(T parent, int index) {
     parent.removeViewAt(index);
   }
